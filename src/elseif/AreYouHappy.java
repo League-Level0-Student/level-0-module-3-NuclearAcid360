@@ -13,7 +13,12 @@ JOptionPane.showMessageDialog(null, "Keep doing whatever you're doing");
 }
 
 if (answer.equals("No")) {
-JOptionPane.showMessageDialog(null,"Do you want to be happy?");
+JOptionPane.showInputDialog("Do you want to be happy?");
+
+if (answer.equals("No")) {
+	JOptionPane.showMessageDialog(null, ");
+	
+}
 }
 
 
